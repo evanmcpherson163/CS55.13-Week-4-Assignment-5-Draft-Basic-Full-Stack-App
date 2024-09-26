@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <a href = "/">South Park</a>
+        <a href = "/">Family Guy</a>
         <Main />
         <NextScript />
       </body>

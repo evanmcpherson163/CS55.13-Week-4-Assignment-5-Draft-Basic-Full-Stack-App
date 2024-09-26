@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Peter Griffin",
+        "hair": "Brown Hair",
+        "voice": "Seth McFarlane",
+        "gender": "Male",
+        "id": 1
+    },
+    {
+        "name": "Lois Griffin",
+        "hair": "Red Hair",
+        "voice": "Alex Borstein",
+        "gender": "Female",
+        "id" : 2
+    },
+    {
+        "name": "Brian Griffin",
+        "hair": "White Hair",
+        "voice": "Seth McFarlane",
+        "gender": "Male",
+        "id" : 3
+    },
+    {
+        
+        "name": "Stewie Griffin",
+        "hair": "Black Hair",
+        "voice": "Seth McFarlane",
+        "gender": "Male",
+        "id" : 4
+    }
+]
