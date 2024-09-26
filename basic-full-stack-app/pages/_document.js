@@ -5,8 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <a href = "/">South Park</a>
-        <a href = "/">Family Guy</a>
+        <a href = "/" className = "btn btn-primary mt-3">Family Guy Characters</a>
         <Main />
         <NextScript />
       </body>
