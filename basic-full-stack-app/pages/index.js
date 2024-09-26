@@ -28,7 +28,7 @@ export async function getStaticProps() {
 export default function Home( {allData} ){
   return(
     <Layout home>
-      <h1>List of names</h1>
+      <h1>List of South Park character names</h1>
       <div className="list-group">
         {allData.map(
             ({id, name}) => (
