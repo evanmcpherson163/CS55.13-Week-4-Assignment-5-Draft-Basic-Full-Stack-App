@@ -32,7 +32,7 @@ export default function Home( {allData} ) {
       <div className="list-group">
         {allData.map(
             ({id, name}) => (
-              <Link key={id} href={`/${id}`} className="list-group-item list-group-item-action">
+              <Link key={id} href={`/familyguy/${id}`} className="list-group-item list-group-item-action">
                 {name}
               </Link>
             )
