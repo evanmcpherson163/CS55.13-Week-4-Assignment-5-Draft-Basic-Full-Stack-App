@@ -1,9 +1,9 @@
 // import Layout
 import Layout from '../../components/layout';
-import { getAllIds, getData} from "../../library/data2"
+import { getAllIds, getData} from "../../library/data2";
 // any file name enclosed in [] expects to see both getStaticProps() and getStaticPaths() named exactly as shown
 // define a getStaticProps() function to have next.js retreive data to use for the dynamic page - this name is defined by next.js
-export async function getStaticProps( { params } ){
+export async function getStaticProps( { params } ) {
     const itemData = await getData(params.id);
     return {
         props: {
@@ -12,7 +12,7 @@ export async function getStaticProps( { params } ){
     };
 }
 // define a getStaticPaths() function to tell next.js all valid URLs- this name is defined by next.js
-export async function getStaticPaths(){
+export async function getStaticPaths() {
     const paths = getAllIds();
     return {
         paths,

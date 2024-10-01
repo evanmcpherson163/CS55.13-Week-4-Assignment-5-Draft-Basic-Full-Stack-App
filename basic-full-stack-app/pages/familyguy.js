@@ -25,7 +25,7 @@ export async function getStaticProps() {
   };
 }
 // export our gome page component Home
-export default function Home( {allData} ){
+export default function Home( {allData} ) {
   return(
     <Layout home>
       <h1>List of names</h1>
