@@ -3,7 +3,7 @@ import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import Layout from '../components/layout';
-import { getSortedList } from '../library/data2';
+import { getSortedList } from '../library/data-firebase2';
 import Link from "next/link";
 
 const geistSans = localFont({
@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 // define a getStaticProps() function - this name is defined by next.js
 export async function getStaticProps() {
-  const allData = getSortedList(); 
+  const allData = await getSortedList(); 
   return {
     props: { allData }
   };
